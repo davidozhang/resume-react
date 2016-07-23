@@ -6,6 +6,7 @@ var APP_DIR = path.resolve(__dirname, 'src/');
 
 var config = {
     entry: [
+        './src/styles/global.scss',
         'webpack-hot-middleware/client',
         './src/index.jsx',
     ],
@@ -19,7 +20,15 @@ var config = {
                 test : /\.jsx?/,
                 include : APP_DIR,
                 loader : 'babel'
-            }
+            },
+            {
+                test: /\.scss$/,
+                loaders: [
+                    'style?sourceMap',
+                    'css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]',
+                    'sass?sourceMap'
+                ]
+            },
         ]
     },
     plugins: [

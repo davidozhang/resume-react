@@ -1,10 +1,10 @@
 const React = require('react');
 const render = require('react-dom').render;
 
-class App extends React.Component {
-    render () {
-        return <p>Zuqi Li</p>;
-    }
-}
+const ResumeContainer = require('./components/resume-container/index.jsx');
+
+const App = (props) => {
+    return <ResumeContainer />;
+};
 
 render(<App/>, document.getElementById('app'));

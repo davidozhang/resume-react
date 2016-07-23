@@ -1,0 +1,7 @@
+$width: 1024px;
+$letterAspectRatio: 11 / 8.5;
+
+.main {
+    width: $width;
+    height: $letterAspectRatio * $width;
+}
