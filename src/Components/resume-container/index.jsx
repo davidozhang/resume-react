@@ -3,8 +3,14 @@ const cssModules = require('react-css-modules');
 
 const styles = require('./styles.scss');
 
+const Header = require('../header/index.jsx');
+
 const ResumeContainer = (props) => {
-    return <div styleName='main'>Zuqi Li</div>;
+    return (
+        <div styleName='resume-container'>
+            <Header term='3B' />
+        </div>
+    );
 };
 
 ResumeContainer.displayName = 'ResumeContainer';

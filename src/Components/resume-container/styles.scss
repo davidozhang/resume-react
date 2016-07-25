@@ -1,7 +1,8 @@
 $width: 1024px;
 $letterAspectRatio: 11 / 8.5;
 
-.main {
+.resume-container {
     width: $width;
     height: $letterAspectRatio * $width;
+    padding: 20px;
 }
