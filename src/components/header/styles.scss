@@ -1,17 +1,29 @@
+@import '../../styles/colors';
+
 .header {
     width: 100%;
-    height: 100px;
-    background-color: #7B8D9B;
+    height: 110px;
+    border-bottom: 2px solid $grey;
 
     .main-desc {
         float: left;
 
         .name {
-            font-size: 60px;
+            font-size: 70px;
+            margin-bottom: 10px;
         }
 
         .term {
             font-size: 20px;
+        }
+    }
+
+    .contact-links {
+        float: right;
+
+        >a {
+            display: block;
+            margin-bottom: 10px;
         }
     }
 }

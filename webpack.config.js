@@ -29,6 +29,10 @@ var config = {
                     'sass?sourceMap'
                 ]
             },
+            {
+                test: /\.(png|jpg|jpeg|gif)/,
+                loader: 'url-loader',
+            },
         ]
     },
     plugins: [

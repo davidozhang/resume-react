@@ -1,0 +1,33 @@
+$size: 16px;
+
+.default {
+    display: inline-block;
+    width: $size;
+    height: $size;
+    background-size: $size;
+
+    //centering and spacing
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.website {
+    composes: default;
+    background-image: url('../../../rsrc/icons/website.png');
+}
+
+.email {
+    composes: default;
+    background-image: url('../../../rsrc/icons/email.png');
+}
+
+.github {
+    composes: default;
+    background-image: url('../../../rsrc/icons/github.png');
+}
+
+.linkedin {
+    composes: default;
+    background-image: url('../../../rsrc/icons/linkedin.png');
+}
