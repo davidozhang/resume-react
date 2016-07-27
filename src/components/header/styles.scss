@@ -1,9 +1,11 @@
 @import '../../styles/colors';
+@import '../../styles/variables';
 
 .header {
     width: 100%;
-    height: 110px;
+    height: $headerHeight;
     border-bottom: 2px solid $grey;
+    overflow: hidden;
 
     .main-desc {
         float: left;
