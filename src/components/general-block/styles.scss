@@ -1,0 +1,12 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.general-block {
+    width: 100%;
+    margin: 5px 0 5px 5px;
+
+    .title {
+        font-size: 30px;
+        color: $thin-dark-blue;
+    }
+}

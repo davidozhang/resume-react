@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.main-section {
+    float: left;
+    width: $mainWidth;
+    height: $bodyHeight;
+    border-right: 2px solid $light-grey;
+    overflow: hidden;
+}

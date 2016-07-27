@@ -11,10 +11,11 @@ const Header = (props) => {
         <div styleName='header' className='clear-fix'>
             <div styleName='main-desc'>
                 <p styleName='name' className='bold-text'>Zuqi <span className='med-text'>(Zach)</span> Li</p>
-                <p styleName='term'><span className='bold-text'>{term}</span> Software Engineering</p>
+                <p styleName='term'><span className='bold-text'>{term}</span> Software Engineering | University of Waterloo</p>
             </div>
             <div styleName='contact-links' className='med-text'>
                 <a href='http://zuqi.li'><Icon icon='website' />zuqi.li</a>
+                <a href='http://zuqi.li'><Icon icon='phone' />408-306-7602</a>
                 <a href='http://zuqi.li'><Icon icon='email' />zq6li@uwaterloo.ca</a>
                 <a href='http://zuqi.li'><Icon icon='github' />github.com/zuqini</a>
                 <a href='http://zuqi.li'><Icon icon='linkedin' />ca.linkedin.com/in/zuqili</a>

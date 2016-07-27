@@ -1,0 +1,9 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.side-section {
+    float: left;
+    width: $sideWidth;
+    height: $bodyHeight;
+    overflow: hidden;
+}
