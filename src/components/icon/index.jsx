@@ -4,14 +4,15 @@ const cssModules = require('react-css-modules');
 const styles = require('./styles.scss');
 
 const Icon = (props) => {
-    const { icon } = props;
+    const { icon, className } = props;
     return (
-        <span styleName={icon} />
+        <span className={className} styleName={icon} />
     );
 };
 
 Icon.displayName = 'Icon';
 Icon.propTypes = {
+    className: React.PropTypes.string,
     icon: React.PropTypes.string,
 };
 

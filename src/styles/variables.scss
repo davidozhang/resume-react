@@ -9,5 +9,5 @@ $headerHeight: 115px;
 $bodyHeight: $containerHeight - 2 * $containerPadding - $headerHeight;
 $bodyWidth: $containerWidth - 2 * $containerPadding;
 
-$sideWidth: $bodyWidth * 0.3;
+$sideWidth: $bodyWidth * 0.25;
 $mainWidth: $bodyWidth - $sideWidth;

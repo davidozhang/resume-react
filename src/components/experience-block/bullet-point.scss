@@ -1,0 +1,11 @@
+.bullet-point {
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 1.1;
+
+    &:before {
+        content: '-';
+        font-weight: 600;
+        margin-right: 4px;
+    }
+}

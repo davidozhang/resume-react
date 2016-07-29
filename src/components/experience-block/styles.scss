@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.experience-block {
+    width: 100%;
+    margin: 8px 0 16px 0;
+
+    .header {
+        margin-bottom: 12px;
+
+        .desc {
+            float: left;
+
+            .title {
+                font-size: 25px;
+                margin-bottom: 6px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+                margin-bottom: 8px;
+            }
+
+            .tech {
+                font-size: 16px;
+                color: $grey;
+            }
+        }
+
+        .icon {
+            float: right;
+            margin-right: 15px;
+        }
+    }
+
+    .content {
+        padding-left: 20px;
+    }
+}

@@ -1,10 +1,20 @@
-$size: 16px;
+@import '../../styles/colors';
+
+$header-size: 16px;
+$company-logo-size: 60px;
+$company-logo-bg-size: $company-logo-size + 1;  // wtf? if I don't do this the background doesn't fit
+$shadow-diag: 2px;
+$shadow-blur: 8px;
 
 .default {
     display: inline-block;
-    width: $size;
-    height: $size;
-    background-size: $size;
+}
+
+.header-default {
+    composes: default;
+    width: $header-size;
+    height: $header-size;
+    background-size: $header-size;
 
     //centering and spacing
     position: relative;
@@ -12,27 +22,58 @@ $size: 16px;
     margin-right: 5px;
 }
 
-.website {
+.company-default {
     composes: default;
+    width: $company-logo-size;
+    height: $company-logo-size;
+    background-size: $company-logo-bg-size;
+    -webkit-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+    -moz-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+    box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+}
+
+.website {
+    composes: header-default;
     background-image: url('../../../rsrc/icons/website.png');
 }
 
 .email {
-    composes: default;
+    composes: header-default;
     background-image: url('../../../rsrc/icons/email.png');
 }
 
 .github {
-    composes: default;
+    composes: header-default;
     background-image: url('../../../rsrc/icons/github.png');
 }
 
 .linkedin {
-    composes: default;
+    composes: header-default;
     background-image: url('../../../rsrc/icons/linkedin.png');
 }
 
 .phone {
-    composes: default;
+    composes: header-default;
     background-image: url('../../../rsrc/icons/phone.png');
+}
+
+.yahoo {
+    composes: company-default;
+    background-image: url('../../../rsrc/icons/yahoo.png');
+    border-radius: 10px;
+}
+
+.wemesh {
+    composes: company-default;
+    background-image: url('../../../rsrc/icons/wemesh.png');
+    border-radius: 15px;
+}
+
+.martello {
+    composes: company-default;
+    background-image: url('../../../rsrc/icons/martello.jpeg');
+    background-size: $company-logo-size + 1;
+    -webkit-box-shadow: 0 0 0 $black;
+    -moz-box-shadow: 0 0 0 $black;
+    box-shadow: 0 0 0 $black;
 }
