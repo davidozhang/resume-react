@@ -4,6 +4,7 @@ const cssModules = require('react-css-modules');
 const styles = require('./styles.scss');
 
 const GeneralBlock = require('../general-block/index.jsx');
+const ProjectsBlock = require('../projects-block/index.jsx');
 const ExperienceBlock = require('../experience-block/index.jsx');
 const ExperienceBulletPoint = require('../experience-block/bullet-point.jsx');
 
@@ -23,6 +24,7 @@ const MainSection = (props) => {
                         'Fluxible',
                         'MySQL',
                         'AWS',
+                        'ES6',
                         'Perl',
                     ]}
                 >
@@ -92,7 +94,53 @@ const MainSection = (props) => {
                     </ExperienceBulletPoint>
                 </ExperienceBlock>
             </GeneralBlock>
-            <GeneralBlock title='Projects' />
+            <GeneralBlock title='Projects'>
+                <ProjectsBlock
+                    title='Angora'
+                    time='Jan. 2016'
+                    techList={[
+                        'Node.js',
+                        'AngularJS',
+                        'MongoDB',
+                        'jade/pug',
+                        'LESS',
+                    ]}
+                >
+                    An online platform to help users explore/share hairstyles and locate/review
+                    hairstylists in their area
+                </ProjectsBlock>
+                <ProjectsBlock
+                    title='Terre'
+                    time='Feb. 2015'
+                    techList={[
+                        'C++',
+                        'Cocos2d-X',
+                    ]}
+                >
+                    A cross-platform physics simulation of star systems with realistic gravitational pull
+                    and dynamic lighting effects
+                </ProjectsBlock>
+                <ProjectsBlock
+                    title='VReq'
+                    time='Nov. 2014'
+                    techList={[
+                        'D3.js',
+                        'JQuery',
+                        'Waterloo Open Data API',
+                    ]}
+                >
+                    A D3.js representation of all course pre-requisites at the University of Waterloo
+                </ProjectsBlock>
+                <ProjectsBlock
+                    title='Simple.Click.Search'
+                    time='Aug. 2014'
+                    techList={[
+                        'Chrome Platform API',
+                    ]}
+                >
+                    A Chrome Extension that allows users to search with a simple click or highlight
+                </ProjectsBlock>
+            </GeneralBlock>
         </div>
     );
 };

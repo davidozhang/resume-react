@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.projects-block {
+    width: 100%;
+    margin: 8px 0 16px 0;
+
+    .header {
+        margin-bottom: 4px;
+
+        .title {
+            float: left;
+            font-size: 25px;
+        }
+
+        .time {
+            float: right;
+            font-size: 18px;
+        }
+    }
+
+    .tech {
+        font-size: 16px;
+        color: $grey;
+    }
+
+    .content {
+        margin-top: 4px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+}
