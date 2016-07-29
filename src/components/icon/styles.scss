@@ -2,7 +2,7 @@
 
 $header-size: 16px;
 $company-logo-size: 60px;
-$company-logo-bg-size: $company-logo-size + 1;  // wtf? if I don't do this the background doesn't fit
+$company-logo-bg-size: $company-logo-size;  // wtf? if I don't do this the background doesn't fit
 $shadow-diag: 2px;
 $shadow-blur: 8px;
 
@@ -72,7 +72,7 @@ $shadow-blur: 8px;
 .martello {
     composes: company-default;
     background-image: url('../../../rsrc/icons/martello.jpeg');
-    background-size: $company-logo-size + 1;
+    background-size: $company-logo-bg-size;
     -webkit-box-shadow: 0 0 0 $black;
     -moz-box-shadow: 0 0 0 $black;
     box-shadow: 0 0 0 $black;

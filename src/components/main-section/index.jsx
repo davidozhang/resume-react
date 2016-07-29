@@ -6,7 +6,7 @@ const styles = require('./styles.scss');
 const GeneralBlock = require('../general-block/index.jsx');
 const ProjectsBlock = require('../projects-block/index.jsx');
 const ExperienceBlock = require('../experience-block/index.jsx');
-const ExperienceBulletPoint = require('../experience-block/bullet-point.jsx');
+const BulletPoint = require('../bullet-point/index.jsx');
 
 const MainSection = (props) => {
     return (
@@ -15,7 +15,7 @@ const MainSection = (props) => {
                 <ExperienceBlock
                     position='Software Engineering Intern'
                     company='Yahoo!'
-                    time='Spring 2016'
+                    time='Present'
                     location='Sunnyvale, CA'
                     icon='yahoo'
                     techList={[
@@ -28,19 +28,19 @@ const MainSection = (props) => {
                         'Perl',
                     ]}
                 >
-                    <ExperienceBulletPoint>
+                    <BulletPoint>
                         Initiated and built the desktop experience of a new Yahoo product with a small engineering team; set to launch on August 8th
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Implemented new API endpoints to integrate official and user Tumblr content into Yahoo
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Optimized inefficient SQL queries and utilized CloudSearch for better performance;
                         Increased slow endpoints' speed by 10x and increased maximum QPS load by 30%
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Migrated legacy Polyvore.com homepage to a Node React Environment
-                    </ExperienceBulletPoint>
+                    </BulletPoint>
                 </ExperienceBlock>
 
                 <ExperienceBlock
@@ -55,19 +55,19 @@ const MainSection = (props) => {
                         'ExoPlayer',
                     ]}
                 >
-                    <ExperienceBulletPoint>
+                    <BulletPoint>
                         Developed and launched the Android client with a team of 5 engineers; client has over 100,000 downloads
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Implemented automatic and manual video quality selection; greatly reduced
                         video load-time on poor networks
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Implemented first-time user experience orientation carousel and pop-up hints
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Improved the VoIP quality and optimized video-synchronization across devices
-                    </ExperienceBulletPoint>
+                    </BulletPoint>
                 </ExperienceBlock>
 
                 <ExperienceBlock
@@ -82,22 +82,22 @@ const MainSection = (props) => {
                         'PostgreSQL',
                     ]}
                 >
-                    <ExperienceBulletPoint>
+                    <BulletPoint>
                         Implemented capability to collect and monitor VoIP traffic in real time
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Developed basic analytic features - error reporting, data filtering, graphing options
-                    </ExperienceBulletPoint>
-                    <ExperienceBulletPoint>
+                    </BulletPoint>
+                    <BulletPoint>
                         Built a stateless account recovery system by using security hashes to store user information;
                         Allows users to reset passwords without temporary data stores
-                    </ExperienceBulletPoint>
+                    </BulletPoint>
                 </ExperienceBlock>
             </GeneralBlock>
             <GeneralBlock title='Projects'>
                 <ProjectsBlock
                     title='Angora'
-                    time='Jan. 2016'
+                    time='January 2016'
                     techList={[
                         'Node.js',
                         'AngularJS',
@@ -111,7 +111,7 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Terre'
-                    time='Feb. 2015'
+                    time='February 2015'
                     techList={[
                         'C++',
                         'Cocos2d-X',
@@ -122,7 +122,7 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='VReq'
-                    time='Nov. 2014'
+                    time='November 2014'
                     techList={[
                         'D3.js',
                         'JQuery',
@@ -133,7 +133,7 @@ const MainSection = (props) => {
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Simple.Click.Search'
-                    time='Aug. 2014'
+                    time='August 2014'
                     techList={[
                         'Chrome Platform API',
                     ]}

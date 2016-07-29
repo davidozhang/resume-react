@@ -1,7 +1,7 @@
 const React = require('react');
 const cssModules = require('react-css-modules');
 
-const styles = require('./bullet-point.scss');
+const styles = require('./styles.scss');
 
 const BulletPoint = (props) => {
     const { children } = props;

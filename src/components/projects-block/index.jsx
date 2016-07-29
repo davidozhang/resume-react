@@ -9,7 +9,7 @@ const ProjectsBlock = (props) => {
         <div styleName='projects-block'>
             <div styleName='header' className='clear-fix'>
                 <p styleName='title' className='bold-text'>{title}</p>
-                <p styleName='time'>{time}</p>
+                <p styleName='time' className='med-text'>{time}</p>
             </div>
             <p styleName='tech' className='med-text'>{techList.join(', ')}</p>
             <div styleName='content'>

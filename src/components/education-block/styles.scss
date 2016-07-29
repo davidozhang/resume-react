@@ -1,0 +1,25 @@
+@import '../../styles/colors';
+
+.education-block {
+
+    .uni {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .degree {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .term {
+        font-size: 14px;
+        color: $grey;
+        margin-bottom: 4px;
+    }
+
+    .award {
+        font-size: 16px;
+        margin: 0 0 8px 20px;
+    }
+}
