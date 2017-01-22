@@ -15,8 +15,8 @@ const Header = (props) => {
             </div>
             <div styleName='contact-links' className='med-text'>
                 <a href='http://zuqi.li'><Icon icon='website' />zuqi.li</a>
-                <a><Icon icon='phone' />(226) 791 6884</a>
-                <a href='mailto:zq6li@uwaterloo.ca'><Icon icon='email' />zq6li@uwaterloo.ca</a>
+                <a><Icon icon='phone' />(669) 246 8362</a>
+                <a href='mailto:lizuqiliang@gmail.com'><Icon icon='email' />lizuqiliang@gmail.com</a>
                 <a href='https://github.com/zuqini'><Icon icon='github' />github.com/zuqini</a>
                 <a href='https://ca.linkedin.com/in/zuqili'><Icon icon='linkedin' />linkedin.com/in/zuqili</a>
             </div>

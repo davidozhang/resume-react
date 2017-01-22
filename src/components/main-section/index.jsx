@@ -35,19 +35,19 @@ const MainSection = (props) => {
                     icon='linkedin-colored'
                     techList={[
                         'Java 8',
-                        'Apache Kafka',
+                        'Kafka',
                         'Espresso DB',
-                        'Guice',
+                        'Ambry Object Store',
                     ]}
                 >
                     <li>
-                        Working on Vector - LinkedIn's <Highlight>distributed media processing</Highlight> infrastructure for uploading, processing, managing, and serving media data
+                        Worked on Vector - the <Highlight>distributed media processing</Highlight> infrastructure for uploading, processing, managing, and serving multimedia content
                     </li>
                     <li>
-                        Designing and building an E2E data pipeline <Highlight>validation</Highlight> and <Highlight>load-testing</Highlight> framework for Vector using Kafka data streaming
+                        Designed and building an E2E <Highlight>pipeline validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing using Kafka, Espresso, and Ambry
                     </li>
                     <li>
-                        Refactored Vector to use dependency injection with <Highlight>Guice</Highlight>
+                        Building the capability to analyze output media data against the input media data
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock

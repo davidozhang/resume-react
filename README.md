@@ -1,5 +1,5 @@
-# Resume-3b
-My hacky React Resume 3b-edition.
+# resume-react
+My hacky React Resume.
 ### To run locally
 ```
 $ npm install
