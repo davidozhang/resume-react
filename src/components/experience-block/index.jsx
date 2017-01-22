@@ -6,26 +6,27 @@ const styles = require('./styles.scss');
 const Icon = require('../icon/index.jsx');
 
 const ExperienceBlock = (props) => {
-    const { position, company, time, location, icon, techList, children } = props;
+    const { href, position, company, time, location, icon, techList, children } = props;
     return (
         <div styleName='experience-block'>
-            <div styleName='header' className='clear-fix'>
+            <a href={href} styleName='header' className='clear-fix'>
                 <div styleName='desc'>
-                    <p styleName='title'><span className='bold-text'>{position}</span> | {company}</p>
+                    <p styleName='title'><span className='bold-text'>{position}</span> | <span className='med-text'>{company}</span></p>
                     <p styleName='subtitle'>{time} | {location}</p>
                     <p styleName='tech' className='med-text'>{techList.join(', ')}</p>
                 </div>
                 <Icon className={styles['icon']} icon={icon} />
-            </div>
-            <div styleName='content'>
+            </a>
+            <ul styleName='content'>
                 {children}
-            </div>
+            </ul>
         </div>
     );
 };
 
 ExperienceBlock.displayName = 'ExperienceBlock';
 ExperienceBlock.propTypes = {
+    href: React.PropTypes.string.isRequired,
     position: React.PropTypes.string.isRequired,
     company: React.PropTypes.string.isRequired,
     time: React.PropTypes.string.isRequired,

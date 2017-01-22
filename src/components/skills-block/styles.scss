@@ -6,6 +6,13 @@
     }
 
     .content {
-        margin-left: 10px;
+        margin-left: 30px;
+        list-style-type: disc;
+
+        >li {
+            font-size: 17px;
+            margin-top: 8px;
+            line-height: 1.1;
+        }
     }
 }

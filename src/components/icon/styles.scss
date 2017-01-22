@@ -2,7 +2,7 @@
 
 $header-size: 16px;
 $company-logo-size: 60px;
-$company-logo-bg-size: $company-logo-size;  // wtf? if I don't do this the background doesn't fit
+$company-logo-bg-size: $company-logo-size;
 $shadow-diag: 2px;
 $shadow-blur: 8px;
 
@@ -27,9 +27,9 @@ $shadow-blur: 8px;
     width: $company-logo-size;
     height: $company-logo-size;
     background-size: $company-logo-bg-size;
-    -webkit-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
-    -moz-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
-    box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+    //-webkit-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+    //-moz-box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
+    //box-shadow: $shadow-diag $shadow-diag $shadow-blur $black;
 }
 
 .website {
@@ -63,10 +63,10 @@ $shadow-blur: 8px;
     border-radius: 10px;
 }
 
-.wemesh {
+.rave {
     composes: company-default;
-    background-image: url('../../../rsrc/icons/wemesh.png');
-    border-radius: 15px;
+    background-image: url('../../../rsrc/icons/rave.png');
+    border-radius: 10px;
 }
 
 .martello {
@@ -76,4 +76,16 @@ $shadow-blur: 8px;
     -webkit-box-shadow: 0 0 0 $black;
     -moz-box-shadow: 0 0 0 $black;
     box-shadow: 0 0 0 $black;
+}
+
+.linkedin-colored {
+    composes: company-default;
+    background-image: url('../../../rsrc/icons/linkedin-company.png');
+    border-radius: 10px;
+}
+
+.nakina {
+    composes: company-default;
+    background-image: url('../../../rsrc/icons/nakina.png');
+    border-radius: 10px;
 }

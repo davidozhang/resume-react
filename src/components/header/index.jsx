@@ -10,15 +10,15 @@ const Header = (props) => {
     return (
         <div styleName='header' className='clear-fix'>
             <div styleName='main-desc'>
-                <p styleName='name' className='bold-text'>Zuqi <span className='med-text'>(Zach)</span> Li</p>
+                <p styleName='name' className='bold-text'>Zach <span className='med-text'>(Zuqi)</span> Li</p>
                 <p styleName='term'><span className='bold-text'>{term}</span> Software Engineering | University of Waterloo</p>
             </div>
             <div styleName='contact-links' className='med-text'>
                 <a href='http://zuqi.li'><Icon icon='website' />zuqi.li</a>
-                <a href='http://zuqi.li'><Icon icon='phone' />408-306-7602</a>
-                <a href='http://zuqi.li'><Icon icon='email' />zq6li@uwaterloo.ca</a>
-                <a href='http://zuqi.li'><Icon icon='github' />github.com/zuqini</a>
-                <a href='http://zuqi.li'><Icon icon='linkedin' />ca.linkedin.com/in/zuqili</a>
+                <a><Icon icon='phone' />(226) 791 6884</a>
+                <a href='mailto:zq6li@uwaterloo.ca'><Icon icon='email' />zq6li@uwaterloo.ca</a>
+                <a href='https://github.com/zuqini'><Icon icon='github' />github.com/zuqini</a>
+                <a href='https://ca.linkedin.com/in/zuqili'><Icon icon='linkedin' />linkedin.com/in/zuqili</a>
             </div>
         </div>
     );

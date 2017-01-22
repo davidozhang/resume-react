@@ -8,8 +8,7 @@ const EducationBlock = (props) => {
        <div styleName='education-block'>
            <p styleName='uni' className='bold-text'>University of Waterloo</p>
            <p styleName='degree'>Bachelor of Software Engineering</p>
-           <p styleName='term' className='med-text'>Expected April 2018</p>
-           <p styleName='award' className='med-text'>- Dean's Honours List</p>
+           <p styleName='term' className='med-text'>Sept. 2013 – present</p>
        </div>
     );
 };

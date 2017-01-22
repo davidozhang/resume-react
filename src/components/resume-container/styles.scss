@@ -3,5 +3,5 @@
 .resume-container {
     width: $containerWidth;
     height: $containerHeight;
-    padding: $containerPadding;
+    padding: $containerPaddingV $containerPaddingH;
 }

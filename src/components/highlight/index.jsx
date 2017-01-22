@@ -3,18 +3,18 @@ const cssModules = require('react-css-modules');
 
 const styles = require('./styles.scss');
 
-const BulletPoint = (props) => {
+const Highlight = (props) => {
     const { children } = props;
     return (
-        <p styleName='bullet-point'>
+        <span styleName='highlight' className='bold-text'>
             {children}
-        </p>
+        </span>
     );
 };
 
-BulletPoint.displayName = 'BulletPoint';
-BulletPoint.propTypes = {
+Highlight.displayName = 'Highlight';
+Highlight.propTypes = {
     children: React.PropTypes.arrayOf(React.PropTypes.node),
 };
 
-module.exports = cssModules(BulletPoint, styles);
+module.exports = cssModules(Highlight, styles);

@@ -3,11 +3,13 @@
 
 .general-block {
     width: 100%;
+    margin-top: 14px;
 
     .title {
-        font-size: 35px;
+        padding-bottom: 10px;
+        font-size: 30px;
         line-height: 0.8;
-        margin-bottom: 8px;
         color: $thin-dark-blue;
+        text-transform: uppercase;
     }
 }

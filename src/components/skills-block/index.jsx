@@ -8,15 +8,15 @@ const SkillsBlock = (props) => {
     return (
         <div styleName='skills-block'>
             <p styleName='title' className='med-text'>{title}</p>
-            <div styleName='content'>{children}</div>
+            <ul styleName='content'>{children}</ul>
         </div>
     );
 };
 
 SkillsBlock.displayName = 'SkillsBlock';
 SkillsBlock.propTypes = {
-    title: React.PropTypes.string,
-    children: React.PropTypes.arrayOf(React.PropTypes.node),
+    title: React.PropTypes.string.isRequired,
+    children: React.PropTypes.arrayOf(React.PropTypes.node).isRequired,
 };
 
 module.exports = cssModules(SkillsBlock, styles);
