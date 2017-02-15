@@ -4,30 +4,36 @@
 .projects-block {
     display: block;
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 
     .header {
 
         .title {
             float: left;
-            line-height: 0.8;
-            font-size: 23px;
+            font-size: 21px;
+        }
+
+        .separator {
+            float: left;
+            font-size: 17px;
+            margin: 2px 4px;
+        }
+
+        .tech {
+            float: left;
+            margin: 3px 0;
+            font-size: 16px;
+            color: $grey;
         }
 
         .time {
             float: right;
-            font-size: 18px;
-            line-height: 1.4;
+            font-size: 16px;
         }
     }
 
-    .tech {
-        font-size: 16px;
-        color: $grey;
-    }
-
     .content {
-        margin-top: 6px;
+        margin-top: 4px;
         padding-left: 20px;
         font-size: 17px;
     }

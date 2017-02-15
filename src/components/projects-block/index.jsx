@@ -9,9 +9,10 @@ const ProjectsBlock = (props) => {
         <a href={href} styleName='projects-block'>
             <div styleName='header' className='clear-fix'>
                 <p styleName='title' className='med-text'>{title}</p>
+                <span styleName='separator'>|</span>
+                <p styleName='tech' className='med-text'>{techList.join(', ')}</p>
                 <p styleName='time' className='med-text'>{time}</p>
             </div>
-            <p styleName='tech' className='med-text'>{techList.join(', ')}</p>
             <div styleName='content'>
                 {children}
             </div>

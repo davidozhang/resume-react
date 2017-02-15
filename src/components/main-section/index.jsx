@@ -44,10 +44,10 @@ const MainSection = (props) => {
                         Worked on Vector - the <Highlight>distributed media processing</Highlight> infrastructure for uploading, processing, managing, and serving multimedia content
                     </li>
                     <li>
-                        Designed and building an E2E <Highlight>pipeline validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing using Kafka, Espresso, and Ambry
+                        Designed, built, and internally released a distributed E2E <Highlight>pipeline validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing using Kafka and Ambry
                     </li>
                     <li>
-                        Building the capability to analyze output media data against the input media data
+                        Framework generates traffic, analyzes processed media data against the input media data, produces real-time metrics, and validates the pipeline
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -68,7 +68,7 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> within 7 weeks as part of the web team; implemented various core business logic and user interfaces
+                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> within 7 weeks as part of the web team; implemented various core business logic and UI components
                     </li>
                     <li>
                         Optimized API endpoints and integrated AWS CloudSearch for improved performance;
