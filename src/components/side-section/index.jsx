@@ -16,10 +16,9 @@ const SideSection = (props) => {
                     <li>JavaScript</li>
                     <li>HTML / CSS</li>
                     <li>Java</li>
-                    <li>Python</li>
                     <li>C / C++</li>
+                    <li>Python</li>
                     <li>Bash</li>
-                    <li>Perl</li>
                 </SkillsBlock>
                 <SkillsBlock title='Frameworks'>
                     <li>Node.js</li>
@@ -28,8 +27,9 @@ const SideSection = (props) => {
                     <li>Express</li>
                     <li>Mocha</li>
                     <li>Fluxible</li>
+                    <li>MobX</li>
                     <li>JQuery</li>
-                    <li>Jade / Pug</li>
+                    <li>Kafka</li>
                     <li>Less / Sass</li>
                     <li>Android SDK</li>
                     <li>Java Spring Framework</li>
@@ -40,9 +40,9 @@ const SideSection = (props) => {
                     <li>MongoDB</li>
                 </SkillsBlock>
                 <SkillsBlock title='Tools'>
+                    <li>Firebase</li>
                     <li>Git</li>
                     <li>SVN</li>
-                    <li>Kafka</li>
                     <li>Maven</li>
                     <li>Grunt</li>
                     <li>Webpack</li>

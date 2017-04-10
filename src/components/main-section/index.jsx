@@ -36,18 +36,21 @@ const MainSection = (props) => {
                     techList={[
                         'Java 8',
                         'Kafka',
-                        'Espresso DB',
-                        'Ambry Object Store',
+                        'MySQL',
+                        'Ambry',
                     ]}
                 >
                     <li>
-                        Worked on Vector - the <Highlight>distributed media processing</Highlight> infrastructure for uploading, processing, managing, and serving multimedia content
+                        Worked on Vector - the <Highlight>media processing</Highlight> infrastructure for uploading, processing, managing, and serving multimedia content
                     </li>
                     <li>
-                        Designed, built, and internally released a distributed E2E <Highlight>pipeline validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing using Kafka and Ambry
+                        Designed, built, and released a distributed <Highlight>E2E processing validation</Highlight> and <Highlight>performance testing</Highlight> framework from scratch for the media infrastructure
                     </li>
                     <li>
-                        Framework generates traffic, analyzes processed media data against the input media data, produces real-time metrics, and validates the pipeline
+                        Framework generates traffic, collects processing metadata and produces metrics, monitors the pipeline, and validates the processed data
+                    </li>
+                    <li>
+                        In use by multiple infrastructure teams for performing quality/performance experiments, collecting key metrics, and monitoring failures
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -77,6 +80,9 @@ const MainSection = (props) => {
                     <li>
                         Integrated <Highlight>Tumblr</Highlight> with Yahoo! View to provide official and fan content related to shows
                     </li>
+                    <li>
+                        Setup the entire backend integration testing infrastructure for Yahoo! View
+                    </li>
                 </ExperienceBlock>
 
                 <ExperienceBlock
@@ -96,7 +102,10 @@ const MainSection = (props) => {
                         Developed and launched the Android client with a team of 5 developers; over <Highlight>100,000</Highlight> installs on Google Play Store
                     </li>
                     <li>
-                        Implemented automatic and manual video quality selection and improved user onboarding experience by implementing an interactive orientation carousel
+                        Implemented the capability to fetch and create nearby local groups for watching synchronized videos; implemented automatic and manual video quality selection
+                    </li>
+                    <li>
+                        Worked closely with the designer to build an <Highlight>interactive</Highlight> orientation carousel for improving the user onboarding experience
                     </li>
                 </ExperienceBlock>
 
@@ -119,27 +128,6 @@ const MainSection = (props) => {
                     </li>
                     <li>
                         Designed and built a <Highlight>stateless</Highlight> account recovery system using HMAC
-                    </li>
-                </ExperienceBlock>
-                <ExperienceBlock
-                    position='Design Engineer'
-                    company='Nakina Systems'
-                    href='https://nakinasystems.com/'
-                    time='Spring 2014'
-                    location='Ottawa, ON'
-                    icon='nakina'
-                    techList={[
-                        'J2EE',
-                        'Python',
-                        'Hibernate ORM',
-                        'Oracle DB',
-                    ]}
-                >
-                    <li>
-                        Delivered a SOAP-based web service for managing groups and users
-                    </li>
-                    <li>
-                        Built a <Highlight>customizable</Highlight> password policy system for pseudo-random password generation and strength validation
                     </li>
                 </ExperienceBlock>
             </GeneralBlock>
