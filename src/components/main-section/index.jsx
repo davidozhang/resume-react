@@ -41,16 +41,16 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Worked on Vector - the <Highlight>media processing</Highlight> infrastructure for uploading, processing, managing, and serving multimedia content
+                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for uploading, processing, managing, and serving images and videos
                     </li>
                     <li>
-                        Designed, built, and released a distributed <Highlight>E2E processing validation</Highlight> and <Highlight>performance testing</Highlight> framework from scratch for the media infrastructure
+                        Independently designed, built, and released Vector-Validation - a distributed <Highlight>E2E validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media infrastructure
                     </li>
                     <li>
-                        Framework generates traffic, collects processing metadata and produces metrics, monitors the pipeline, and validates the processed data
+                        Vector-Validation generates traffic to the media infrastructure, monitors the pipeline, produces quality and latency metrics, and validates the processed media files
                     </li>
                     <li>
-                        In use by multiple infrastructure teams for performing quality/performance experiments, collecting key metrics, and monitoring failures
+                        Vector-Validation is currently in use by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
