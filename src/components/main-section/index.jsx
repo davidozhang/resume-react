@@ -41,16 +41,16 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for uploading, processing, managing, and serving images and videos
+                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for uploading, processing, managing, and serving images, documents, and videos
                     </li>
                     <li>
-                        Independently designed, built, and released Vector-Validation - a distributed <Highlight>E2E validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media infrastructure
+                        Independently designed, built, and released VectorValidation - a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing
                     </li>
                     <li>
-                        Vector-Validation generates traffic to the media infrastructure, monitors the pipeline, produces quality and latency metrics, and validates the processed media files
+                        VectorValidation generates traffic to the media infrastructure, monitors the pipeline, produces quality and latency metrics, and validates the processed data
                     </li>
                     <li>
-                        Vector-Validation is currently in use by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
+                        VectorValidation is currently in use by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -78,7 +78,7 @@ const MainSection = (props) => {
                         reduced avg response time to under <Highlight>200ms</Highlight> and increased max QPS capacity by <Highlight>30x</Highlight>
                     </li>
                     <li>
-                        Integrated <Highlight>Tumblr</Highlight> with Yahoo! View to provide official and fan content related to shows
+                        Integrated <Highlight>Tumblr</Highlight> with Yahoo! View to provide official and fan posts related to shows
                     </li>
                     <li>
                         Setup the entire backend integration testing infrastructure for Yahoo! View
