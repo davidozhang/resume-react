@@ -41,7 +41,7 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for uploading, processing, managing, and serving images, documents, and videos
+                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for processing, managing, and serving images, documents, and videos
                     </li>
                     <li>
                         Independently designed, built, and released VectorValidation - a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing
@@ -133,6 +133,18 @@ const MainSection = (props) => {
             </GeneralBlock>
             <GeneralBlock title='Projects'>
                 <ProjectsBlock
+                  title='LUQL'
+                  href='https://luql.io/'
+                  time='January 2017 - Present'
+                  techList={[
+                        'React-Native',
+                        'MobX',
+                        'Firebase',
+                    ]}
+                >
+                    A platform where locals create and guide tours for travellers, tourists, and adventurers
+                </ProjectsBlock>
+                <ProjectsBlock
                     title='Angora'
                     href='https://github.com/jasonf7/Angora'
                     time='January 2016'
@@ -156,16 +168,6 @@ const MainSection = (props) => {
                     ]}
                 >
                     A cross-platform physics simulation of star systems with dynamic lighting effects
-                </ProjectsBlock>
-                <ProjectsBlock
-                    title='Simple.Click.Search.'
-                    href='https://github.com/zuqini/Simple.Click.Search.'
-                    time='August 2014'
-                    techList={[
-                        'Chrome Platform API',
-                    ]}
-                >
-                    A Chrome extension that allows users to search plain text with a simple click or highlight
                 </ProjectsBlock>
             </GeneralBlock>
         </div>
