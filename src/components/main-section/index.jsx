@@ -41,7 +41,7 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for processing, managing, and serving images, documents, and videos
+                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for processing, managing, and serving digital media assets
                     </li>
                     <li>
                         Independently designed, built, and released VectorValidation - a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing
@@ -137,12 +137,13 @@ const MainSection = (props) => {
                   href='https://luql.io/'
                   time='January 2017 - Present'
                   techList={[
+                        'Node.js',
                         'React-Native',
                         'MobX',
                         'Firebase',
                     ]}
                 >
-                    A platform where locals create and guide tours for travellers, tourists, and adventurers
+                    A platform to help locals create and guide tours for travellers, tourists, and adventurers
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Angora'
@@ -156,7 +157,7 @@ const MainSection = (props) => {
                         'Less',
                     ]}
                 >
-                    An online platform to help users explore hairstyles and review local hairstylists
+                    A platform where users explore various hairstyles and review local hairstylists
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Terre'
@@ -167,7 +168,7 @@ const MainSection = (props) => {
                         'Cocos2d-X',
                     ]}
                 >
-                    A cross-platform physics simulation of star systems with dynamic lighting effects
+                    A physics simulation sandbox for building star systems with dynamic lighting effects
                 </ProjectsBlock>
             </GeneralBlock>
         </div>
