@@ -84,6 +84,11 @@ $shadow-blur: 8px;
     border-radius: 10px;
 }
 
+.microsoft {
+    composes: company-default;
+    background-image: url('../../../rsrc/icons/microsoft.jpg');
+}
+
 .nakina {
     composes: company-default;
     background-image: url('../../../rsrc/icons/nakina.png');

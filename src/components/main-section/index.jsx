@@ -27,6 +27,28 @@ const MainSection = (props) => {
         <div styleName='main-section'>
             <GeneralBlock title='Experience'>
                 <ExperienceBlock
+                  position='Software Engineering Intern'
+                  company='Microsoft'
+                  href='https://www.microsoft.com/en-us/about/default.aspx'
+                  time='Fall 2017'
+                  location='Redmond, WA'
+                  icon='microsoft'
+                  techList={[
+                        'C#',
+                        'MS Cosmos MapReduce',
+                    ]}
+                >
+                    <li>
+                        Built the prototype <Highlight>next word prediction</Highlight> for predicting the most probable subsequent words given previous inputs using the N-Gram model
+                    </li>
+                    <li>
+                        Working on integrating the next word prediction into the main <Highlight>Bing</Highlight> search engine's autosuggestion pipeline
+                    </li>
+                    <li>
+                        Working on improving the next word prediction using a <Highlight>Recurrent Neural Network</Highlight> by learning the syntactic and semantic features of natural language
+                    </li>
+                </ExperienceBlock>
+                <ExperienceBlock
                     position='Data Infrastructure Intern'
                     company='LinkedIn'
                     href='https://press.linkedin.com/about-linkedin'
@@ -50,7 +72,7 @@ const MainSection = (props) => {
                         VectorValidation generates traffic to the media infrastructure, monitors the pipeline, produces quality and latency metrics, and validates the processed data
                     </li>
                     <li>
-                        VectorValidation is currently in use by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
+                        VectorValidation is used by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -84,52 +106,6 @@ const MainSection = (props) => {
                         Setup the entire backend integration testing infrastructure for Yahoo! View
                     </li>
                 </ExperienceBlock>
-
-                <ExperienceBlock
-                    position='Mobile Developer'
-                    company='Rave Media (WeMesh)'
-                    href='http://rave.io/'
-                    time='Fall 2015'
-                    location='Waterloo, ON'
-                    icon='rave'
-                    techList={[
-                        'Android SDK',
-                        'Retrofit',
-                        'ExoPlayer',
-                    ]}
-                >
-                    <li>
-                        Developed and launched the Android client with a team of 5 developers; over <Highlight>100,000</Highlight> installs on Google Play Store
-                    </li>
-                    <li>
-                        Implemented the capability to fetch and create nearby local groups for watching synchronized videos; implemented automatic and manual video quality selection
-                    </li>
-                    <li>
-                        Worked closely with the designer to build an <Highlight>interactive</Highlight> orientation carousel for improving the user onboarding experience
-                    </li>
-                </ExperienceBlock>
-
-                <ExperienceBlock
-                    position='Web Developer'
-                    company='Martello Technologies'
-                    href='http://martellotech.com/'
-                    time='Winter 2015'
-                    location='Ottawa, ON'
-                    icon='martello'
-                    techList={[
-                        'Java Spring Framework',
-                        'Hibernate ORM',
-                        'PostgreSQL',
-                        'JSP',
-                    ]}
-                >
-                    <li>
-                        Implemented the capability to <Highlight>monitor</Highlight> and <Highlight>report</Highlight> SIP-based VoIP traffic; detects performance and availability issues in real time
-                    </li>
-                    <li>
-                        Designed and built a <Highlight>stateless</Highlight> account recovery system using HMAC
-                    </li>
-                </ExperienceBlock>
             </GeneralBlock>
             <GeneralBlock title='Projects'>
                 <ProjectsBlock
@@ -144,6 +120,18 @@ const MainSection = (props) => {
                     ]}
                 >
                     A platform to help locals create and guide tours for travellers, tourists, and adventurers
+                </ProjectsBlock>
+                <ProjectsBlock
+                  title='MelonWatch'
+                  href='https://github.com/zuqini/MelonWatch'
+                  time='August 2017'
+                  techList={[
+                        'C++',
+                        'OpenGL',
+                        'OpenAL',
+                    ]}
+                >
+                    An OpenGL FPS; built the entire game engine from scratch featuring dynamic shadow mapping, particle systems, and physics engine
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Angora'
