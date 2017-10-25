@@ -34,18 +34,20 @@ const MainSection = (props) => {
                   location='Redmond, WA'
                   icon='microsoft'
                   techList={[
+                        'Python',
+                        'TensorFlow',
                         'C#',
                         'MS Cosmos MapReduce',
                     ]}
                 >
                     <li>
-                        Built the prototype <Highlight>next word prediction</Highlight> for predicting the most probable subsequent words given previous inputs using the N-Gram model
+                        Built, evaluated, and demoed a prototype <Highlight>next word prediction</Highlight> feature for predicting new user queries using an n-gram model
                     </li>
                     <li>
-                        Working on integrating the next word prediction into the main <Highlight>Bing</Highlight> search engine's autosuggestion pipeline
+                        Integrated the n-gram next word prediction into <Highlight>Bing</Highlight>'s autosuggestion pipeline; improved autosuggestion coverage for unseen queries from 0 to 45%
                     </li>
                     <li>
-                        Working on improving the next word prediction using a <Highlight>Recurrent Neural Network</Highlight> by learning the syntactic and semantic features of natural language
+                        Working on further improving the next word prediction using an <Highlight>LSTM</Highlight> recurrent neural network model
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -93,10 +95,10 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> within 7 weeks as part of the web team; implemented various core business logic and UI components
+                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> within 7 weeks as part of the web team; built core UI components and API endpoints
                     </li>
                     <li>
-                        Optimized API endpoints and integrated AWS CloudSearch for improved performance;
+                        Optimized inefficient APIs and integrated AWS CloudSearch for improved performance;
                         reduced avg response time to under <Highlight>200ms</Highlight> and increased max QPS capacity by <Highlight>30x</Highlight>
                     </li>
                     <li>

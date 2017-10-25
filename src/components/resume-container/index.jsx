@@ -10,7 +10,7 @@ const SideSection = require('../side-section/index.jsx');
 const ResumeContainer = (props) => {
     return (
         <div styleName='resume-container'>
-            <Header term='4A' />
+            <Header term='4B' />
             <MainSection />
             <SideSection />
         </div>
