@@ -41,13 +41,13 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Built, evaluated, and demoed a prototype <Highlight>next word prediction</Highlight> feature for predicting new user queries using an n-gram model
+                        Built a <Highlight>next word prediction</Highlight> application using an n-gram language model for predicting the next words of given incomplete user queries
                     </li>
                     <li>
-                        Integrated the n-gram next word prediction into <Highlight>Bing</Highlight>'s autosuggestion pipeline; improved autosuggestion coverage for unseen queries from 0 to 45%
+                        Integrated the n-gram based next word prediction into <Highlight>Bing</Highlight>'s autosuggestion pipeline; improved autosuggestion coverage for unseen unique queries from none to <Highlight>45%</Highlight>
                     </li>
                     <li>
-                        Working on further improving the next word prediction using an <Highlight>LSTM</Highlight> recurrent neural network model
+                        Working on further improving the next word prediction model using an <Highlight>LSTM</Highlight> recurrent neural network
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -68,13 +68,15 @@ const MainSection = (props) => {
                         Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for processing, managing, and serving digital media assets
                     </li>
                     <li>
-                        Independently designed, built, and released VectorValidation - a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing
-                    </li>
-                    <li>
-                        VectorValidation generates traffic to the media infrastructure, monitors the pipeline, produces quality and latency metrics, and validates the processed data
-                    </li>
-                    <li>
-                        VectorValidation is used by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
+                        Designed, built, and released VectorValidation - a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing. Framework is:
+                        <ul>
+                            <li>
+                                Configurable with custom user logic and handles traffic generation, pipeline monitoring/alerting, quality/latency metrics collection, and data validation
+                            </li>
+                            <li>
+                                Used by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
+                            </li>
+                        </ul>
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
@@ -133,7 +135,7 @@ const MainSection = (props) => {
                         'OpenAL',
                     ]}
                 >
-                    An OpenGL FPS; built the entire game engine from scratch featuring dynamic shadow mapping, particle systems, and physics engine
+                    An OpenGL FPS; built the entire game engine from scratch featuring dynamic shadow mapping, a particle system, and a physics engine
                 </ProjectsBlock>
                 <ProjectsBlock
                     title='Angora'

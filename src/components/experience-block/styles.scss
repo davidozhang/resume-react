@@ -43,6 +43,15 @@
             margin-top: 10px;
             font-size: 17px;
             line-height: 1.1;
+
+            ul {
+                padding-left: 15px;
+                list-style-type: circle;
+
+                li {
+                    margin-top: 10px;
+                }
+            }
         }
     }
 }
