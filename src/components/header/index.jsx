@@ -11,7 +11,7 @@ const Header = (props) => {
         <div styleName='header' className='clear-fix'>
             <div styleName='main-desc'>
                 <p styleName='name' className='bold-text'>Zach <span className='med-text'>(Zuqi)</span> Li</p>
-                <p styleName='term'><span className='bold-text'>{term}</span> Software Engineering | University of Waterloo</p>
+                <p styleName='term'>Software Engineer | University of Waterloo</p>
             </div>
             <div styleName='contact-links' className='med-text'>
                 <a href='http://zuqi.li'><Icon icon='website' />zuqi.li</a>

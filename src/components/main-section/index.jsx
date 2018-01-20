@@ -35,16 +35,17 @@ const MainSection = (props) => {
                   icon='microsoft'
                   techList={[
                         'Python',
-                        'TensorFlow',
                         'C#',
-                        'MS Cosmos MapReduce',
+                        'TensorFlow',
+                        'LINQ',
+                        'MS Cosmos (Internal Data Processing Platform)'
                     ]}
                 >
                     <li>
                         Built an <Highlight>n-gram language model</Highlight> using past Bing queries for predicting the next words of given incomplete user queries
                     </li>
                     <li>
-                        Integrated next word prediction into <Highlight>Bing</Highlight>'s autosuggestion pipeline to show suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
+                        Integrated <Highlight>next word prediction</Highlight> into <Highlight>Bing</Highlight>'s autosuggestion pipeline to show suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
                     </li>
                     <li>
                         Built and trained a <Highlight>recurrent neural network language model</Highlight> for superior predictions; model captures semantic relationships between words and long-term dependencies
@@ -74,7 +75,7 @@ const MainSection = (props) => {
                                 Configurable with custom user logic and handles traffic generation, pipeline monitoring/alerting, quality/latency metrics collection, and data validation
                             </li>
                             <li>
-                                Used by multiple media teams for performing experiments, collecting key metrics, and monitoring for failures
+                                Used by media teams for performing experiments, collecting key metrics, and monitoring for failures
                             </li>
                         </ul>
                     </li>
@@ -87,12 +88,12 @@ const MainSection = (props) => {
                     location='Sunnyvale, CA'
                     icon='yahoo'
                     techList={[
+                        'ES6',
+                        'Perl',
                         'Node.js',
                         'React',
                         'Fluxible',
                         'MySQL',
-                        'ES6',
-                        'Perl',
                         'AWS',
                     ]}
                 >
