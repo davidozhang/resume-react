@@ -42,13 +42,13 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Built an <Highlight>n-gram language model</Highlight> using past Bing queries for predicting the next words of given incomplete user queries
+                        Built an <Highlight>n-gram language model</Highlight> using past Bing queries to predict the next words of incomplete user queries
                     </li>
                     <li>
                         Integrated <Highlight>next word prediction</Highlight> into <Highlight>Bing</Highlight>'s autosuggestion pipeline to show suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
                     </li>
                     <li>
-                        Built and trained a <Highlight>recurrent neural network language model</Highlight> for superior predictions; model captures semantic relationships between words and long-term dependencies
+                        Built and trained a <Highlight>recurrent neural network language model</Highlight> for superior predictions; model captures long-term dependencies and semantic relationships between words
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
