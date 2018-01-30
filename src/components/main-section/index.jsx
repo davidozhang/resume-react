@@ -27,10 +27,10 @@ const MainSection = (props) => {
         <div styleName='main-section'>
             <GeneralBlock title='Experience'>
                 <ExperienceBlock
-                  position='Software Engineering Intern'
+                  position='Software Engineer'
                   company='Microsoft'
                   href='https://www.microsoft.com/en-us/about/default.aspx'
-                  time='Fall 2017'
+                  time='September 2017 - December 2017'
                   location='Redmond, WA'
                   icon='microsoft'
                   techList={[
@@ -45,17 +45,17 @@ const MainSection = (props) => {
                         Built an <Highlight>n-gram language model</Highlight> using past Bing queries to predict the next words of incomplete user queries
                     </li>
                     <li>
-                        Integrated <Highlight>next word prediction</Highlight> into <Highlight>Bing</Highlight>'s autosuggestion pipeline to show suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
+                        Integrated <Highlight>next word prediction</Highlight> into <Highlight>Bing</Highlight>'s autosuggestion pipeline to show relevant suggestions for uncommon queries; improved overall suggestion coverage by <Highlight>23%</Highlight>
                     </li>
                     <li>
-                        Built and trained a <Highlight>recurrent neural network language model</Highlight> for superior predictions; model captures long-term dependencies and semantic relationships between words
+                        Prototyped a <Highlight>recurrent neural network language model</Highlight> to further improve prediction relevance; model captures semantic relationships and long-term dependencies
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
-                    position='Data Infrastructure Intern'
+                    position='Data Infrastructure Engineer'
                     company='LinkedIn'
                     href='https://press.linkedin.com/about-linkedin'
-                    time='Winter 2017'
+                    time='January 2017 - April 2017'
                     location='Sunnyvale, CA'
                     icon='linkedin-colored'
                     techList={[
@@ -81,10 +81,10 @@ const MainSection = (props) => {
                     </li>
                 </ExperienceBlock>
                 <ExperienceBlock
-                    position='Software Engineering Intern'
+                    position='Software Engineer'
                     company='Yahoo!'
                     href='https://about.yahoo.com/'
-                    time='Spring 2016'
+                    time='May 2016 - August 2016'
                     location='Sunnyvale, CA'
                     icon='yahoo'
                     techList={[

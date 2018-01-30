@@ -1,7 +1,7 @@
 @import '../../styles/colors';
 
 $header-size: 16px;
-$company-logo-size: 60px;
+$company-logo-size: 62px;
 $company-logo-bg-size: $company-logo-size;
 $shadow-diag: 2px;
 $shadow-blur: 8px;
@@ -60,13 +60,13 @@ $shadow-blur: 8px;
 .yahoo {
     composes: company-default;
     background-image: url('../../../rsrc/icons/yahoo.png');
-    border-radius: 10px;
+    border-radius: 11px;
 }
 
 .rave {
     composes: company-default;
     background-image: url('../../../rsrc/icons/rave.png');
-    border-radius: 10px;
+    border-radius: 11px;
 }
 
 .martello {
@@ -81,7 +81,7 @@ $shadow-blur: 8px;
 .linkedin-colored {
     composes: company-default;
     background-image: url('../../../rsrc/icons/linkedin-company.png');
-    border-radius: 10px;
+    border-radius: 11px;
 }
 
 .microsoft {
@@ -92,5 +92,5 @@ $shadow-blur: 8px;
 .nakina {
     composes: company-default;
     background-image: url('../../../rsrc/icons/nakina.png');
-    border-radius: 10px;
+    border-radius: 11px;
 }

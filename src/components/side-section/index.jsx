@@ -16,10 +16,11 @@ const SideSection = (props) => {
                     <li>JavaScript</li>
                     <li>Java</li>
                     <li>C#</li>
-                    <li>C / C++</li>
+                    <li>Scala</li>
+                    <li>C++</li>
+                    <li>C</li>
                     <li>Python</li>
                     <li>HTML / CSS</li>
-                    <li>Bash</li>
                     <li>ARM Assembly</li>
                 </SkillsBlock>
                 <SkillsBlock title='Frameworks'>
@@ -31,7 +32,6 @@ const SideSection = (props) => {
                     <li>Less / Sass</li>
                     <li>OpenGL</li>
                     <li>Android SDK</li>
-                    <li>Java Spring Framework</li>
                 </SkillsBlock>
                 <SkillsBlock title='Databases'>
                     <li>MySQL</li>

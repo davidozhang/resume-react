@@ -11,7 +11,7 @@ const ExperienceBlock = (props) => {
         <div styleName='experience-block'>
             <a href={href} styleName='header' className='clear-fix'>
                 <div styleName='desc'>
-                    <p styleName='title'><span className='bold-text'>{position}</span> | <span className='med-text'>{company}</span></p>
+                    <p styleName='title'><span className='bold-text'>{company}</span> | <span styleName='position' className='med-text'>{position}</span></p>
                     <p styleName='subtitle'>{time} | {location}</p>
                     <p styleName='tech' className='med-text'>{techList.join(', ')}</p>
                 </div>
