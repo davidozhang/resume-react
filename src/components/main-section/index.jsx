@@ -66,16 +66,16 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Worked on and helped launch Vector - the <Highlight>media processing</Highlight> infrastructure for processing, managing, and serving digital media assets
+                        Helped launch LinkedIn's <Highlight>media processing</Highlight> infrastructure for processing, managing, and serving digital media assets
                     </li>
                     <li>
-                        Designed, built, and released VectorValidation - a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for media processing. Framework is:
+                        Designed, built, and released a distributed <Highlight>end-to-end validation</Highlight> and <Highlight>performance testing</Highlight> framework for the media processing infrastructure. Framework is:
                         <ul>
                             <li>
-                                Configurable with custom user logic and handles traffic generation, pipeline monitoring/alerting, quality/latency metrics collection, and data validation
+                                Configurable with custom user logic and handles: traffic generation, pipeline monitoring, quality/latency metrics collection, and data validation
                             </li>
                             <li>
-                                Used by media teams for performing experiments, collecting key metrics, and monitoring for failures
+                                Used by media teams for performing experiments, analyzing key metrics, and monitoring for failures
                             </li>
                         </ul>
                     </li>
@@ -98,14 +98,14 @@ const MainSection = (props) => {
                     ]}
                 >
                     <li>
-                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> within 7 weeks as part of the web team; built core UI components and API endpoints
+                        Created and launched <a href='https://view.yahoo.com'><Highlight>Yahoo! View</Highlight> <Italic>(view.yahoo.com)</Italic></a> entirely within 7 weeks as part of the web team; built core UI components and API endpoints
                     </li>
                     <li>
-                        Optimized inefficient APIs and integrated AWS CloudSearch for improved performance;
+                        Optimized APIs and helped integrate AWS CloudSearch for improved performance;
                         reduced avg response time to under <Highlight>200ms</Highlight> and increased max QPS capacity by <Highlight>30x</Highlight>
                     </li>
                     <li>
-                        Integrated <Highlight>Tumblr</Highlight> with Yahoo! View to provide official and fan posts related to shows
+                        Integrated <Highlight>Tumblr</Highlight> into Yahoo! View to provide official and fan posts related to shows
                     </li>
                     <li>
                         Setup the entire backend integration testing infrastructure for Yahoo! View
