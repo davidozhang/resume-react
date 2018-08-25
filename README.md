@@ -1,5 +1,5 @@
 # resume-react
-My hacky React Resume.
+My résumé rendered using React: http://zuqi.li/resources/ZuqiLi_Resume.pdf
 ### To run locally
 ```
 $ npm install
